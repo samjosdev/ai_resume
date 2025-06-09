@@ -1,0 +1,174 @@
+requirement_analysis_task:
+  description: >
+    Creates comprehensive business requirements document for the web application project.
+    Include user stories, acceptance criterias, functional requirements and business rules.
+    Base the analysis on requirements {requirements}
+  expected_output: >
+    A detailed business requirements document in Markdown format with clear sections for user stores, acceptance criteria and functional specifications.
+  agent: business_analyst
+  output_file: output/business_requirements.md
+
+requirements_review_checkpoint:
+  description: >
+    Create review checkpoint for human feedback on business requirements.
+    Generate 1-page summary of requirements analysis for human review.
+  expected_output: >
+    1-page summary with key requirements, user stories, and review instructions for human approval
+  agent: human_interface_agent
+  context:
+    - requirement_analysis_task
+  output_file: output/REVIEW_REQUIREMENTS.md
+
+design_task:
+  description: >
+    Take the business requirements analysis and create detailed technical design for the development team.
+    Create architecture specifications, module breakdown, and technical implementation plan.
+    Use the business requirements as your foundation for technical decisions. 
+  expected_output: >
+    A detailed technical design document identifying system architecture, modules, classes and implementation approach.
+  agent: engineering_lead
+  context:
+    - requirement_analysis_task
+    - requirements_review_checkpoint
+  output_file: output/technical_design.md
+
+design_review_checkpoint:
+  description: >
+    Create review checkpoint for human feedback on technical design.
+    Generate 1-page summary of technical architecture for human review.
+  expected_output: >
+    1-page summary with architecture decisions, module breakdown, and review instructions
+  agent: human_interface_agent
+  context:
+    - design_task
+  output_file: output/REVIEW_DESIGN.md
+
+database_design_task:
+  description: >
+    Design Database schemas and data models based on technical design specifications.
+    Create SQLAlchemy models and database structure and data relationshipsfor the application.
+  expected_output: >
+    Complete SQLAlchemy models definitions and database schema design.
+    IMPORTANT: Output ONLY the raw Python code without any markdown formatting, code block delimiters, or backticks.
+    The output should be valid Python code that can be directly saved to a file and executed.
+  agent: database_engineer
+  context:
+    - design_task
+    - design_review_checkpoint
+  output_file: output/models.py
+
+code_task:
+  description: >
+    Implement Backend application logic based on technical design and database schemas.
+    Create complete, functional python modules and integrate with database models.
+  expected_output: >
+    A complete python backend implementation that integrates with database models.
+    IMPORTANT: Output ONLY the raw Python code without any markdown formatting, code block delimiters, or backticks.
+    The output should be valid Python code that can be directly saved to a file and executed.
+  agent: backend_engineer
+  context:
+    - design_task
+    - database_design_task
+  output_file: output/{module_name}
+
+frontend_task:
+  description: >
+    Create a Gradio user interface that demonstrates the backend functionality.
+    Build an intutive, complete web interface that showcases all application features.
+  expected_output: >
+    A complete Gradio application that provides user interface for the backend system.
+    IMPORTANT: Output ONLY the raw Python code without any markdown formatting, code block delimiters, or backticks.
+    The output should be valid Python code that can be directly saved to a file and executed.
+  agent: frontend_engineer
+  context:
+    - code_task
+    - database_design_task
+  output_file: output/app.py
+
+testing_task:
+  description: >
+    Create comprehensive unit tests for the backend implementation and database models.
+    Write thorough test suites that validate all functionality.
+  expected_output: >
+    A complete test suite that validates backend functionality and database operations.
+    IMPORTANT: Output ONLY the raw Python code without any markdown formatting, code block delimiters, or backticks.
+    The output should be valid Python code that can be directly saved to a file and executed.
+  agent: test_engineer
+  context:
+    - code_task
+    - database_design_task
+    - frontend_task
+  output_file: output/test_{module_name}
+
+human_review_preperation_task:
+  description: >
+    create one page summary of completed work for human review with demo instructions
+  expected_output: >
+    Clear 1 page summary with key decisions, progress and demo instructions
+  agent: human_interface_agent
+  context:
+    - requirement_analysis_task
+    - design_task
+    - database_design_task
+  output_file: output/review_summary.md
+
+integration_demo_task:
+  description: >
+    build an integrated gradio demo showcasing complete feature set functionality
+  expected_output: >
+    Single comprehensive demo showing all features working together
+  agent: demo_builder
+  context:
+    - code_task
+    - database_design_task
+    - frontend_task
+    - testing_task
+  output_file: output/integrated_demo.py
+
+integration_coordination_task:
+  description: >
+    Coordinate integration between all modules and feature sets
+  expected_output: >
+    Fully integrated system with validated component integration.
+  agent: integration_coordinator
+  context:
+    - code_task
+    - database_design_task
+    - frontend_task
+    - integration_demo_task
+  output_file: output/integration_report.md
+
+feature_review_checkpoint:
+  description: >
+    Create review checkpoint for completed feature set with integrated demo.
+    Generate 1-page summary of completed features with demo instructions.
+  expected_output: >
+    1-page feature summary with demo instructions and review checklist for human approval
+  agent: human_interface_agent
+  context:
+    - code_task
+    - frontend_task
+    - integration_demo_task
+  output_file: output/REVIEW_FEATURES.md
+
+feedback_implementation_task:
+  description: >
+    Coordinate implementation of human feedback across all relevant agents
+  expected_output: >
+    Updated system incorporating all requested changes.
+  agent: human_interface_agent
+  context:
+    - human_review_preperation_task
+    - integration_coordination_task
+  output_file: output/feedback_implementation.md
+
+quality_validation_task:
+  description: >
+    Validate the feedback has been properly implemented and meets quality standards
+  expected_output: >
+    Confirmation that changes meet requirements and quality standards
+  agent: quality_gate_agent
+  context:
+    - feedback_implementation_task
+    - integration_demo_task
+  output_file: output/quality_validation.md

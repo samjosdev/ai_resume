@@ -1,0 +1,15 @@
+```python
+# Python code to calculate the first 10,000 terms of the series and multiply by 4
+sum = 0
+for i in range(10000):
+    term = 1 / (1 + 2 * i)
+    if i % 2 == 1:
+        term = -term
+    sum += term
+final_result = 4 * sum
+print(final_result)
+```
+Output:
+```
+3.1414926535900345
+```
