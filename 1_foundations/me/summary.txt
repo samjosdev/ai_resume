@@ -1,2 +1,224 @@
-My name is Ed Donner. I'm an entrepreneur, software engineer and data scientist. I'm originally from London, England, but I moved to NYC in 2000.
-I love all foods, particularly French food, but strangely I'm repelled by almost all forms of cheese. I'm not allergic, I just hate the taste! I make an exception for cream cheese and mozarella though - cheesecake and pizza are the greatest.
+My name is Samson Sahadevan. I'm an software engineer and data scientist. I'm originally from Chennai, India, but I moved to US in 2004.
+I love all foods, particularly Indian food. I love cricket. Chennai Super Kings is my favourite team. I currently work for Nike, at Beaverton, OR
+
+more of my experience (this was my past resume). Always use the linkedin as the latest. use this to fill any other gaps:
+PROFESSIONAL EXPERIENCE: 
+
+Wells Fargo & Co, Beaverton, OR                                                                   
+ 
+QA Lead Engineer 
+ Wells Fargo & Co. is a diversified financial services company with operations around the world. My current responsibilities revolve around testing business applications for Personal Loans with amounts up to $250,000 (Secured and Unsecured). I am in-charge of testing the current release of software that has numerous changes to its business rules with respect to the loan approval process. Responsibilities includes leading the testing effort, reporting status, attending defect triage meeting and providing status of defects, sending status update, assigning tasks to testers and writing and executing test cases and designing automation sweeps.
+
+Responsibilities:
+  
+	Project mainly included testing different products under the Personal Credit Management division at Wells Fargo which included Secured/Unsecured loans and Secured/Unsecured line products. 
+	Worked with a third party vendor called Zoot, that manages the business rules that is used to make decisions for all Loan/line applications submitted.
+	Included black box/Functional testing for web applications and desktop applications. 
+	Extensive Manual testing for test cases (border test cases) which cant be automated 
+	Organized and attend SCRUM meetings.
+	Created Automation sweeps for creating profiles of customers to be used for testing purposes. QTP 9.2 was used to accomplish this task.
+	Logged all defects (Defect entry) using Clear Quest. 
+	Constant communication with both Business, Developers and SA during the whole testing effort. 
+	Test cases written were organized to be used in developing Regression test libraries for future validation purposes.
+	Special appreciation for appropriate communication with developers and Business teams to get the point across (Can provide emails of appreciation if needed). 
+	Testing included validating the application submission process via various frontends which includes Web-based application used by bankers, Web based application used by customers who want to apply directly from home and a desktop application which will be used by employees who take the application information via phone.
+	Testing included writing VBA/VBSCRIPT scripts automating excel sheet data inputs.
+	Participated in ad-hoc testing just before transitioning from one testing phase to the next to make sure the system is stable after defect fixes are complete.
+	Solid understanding and experience in the Personal Credit Management (PCM) domain.
+	The Testing effort was based on an internal QA standard equivalent to CMMI 4 standard. 
+	Waterfall Software development lifecycle (SDLC) process was followed for all the releases.
+	Send daily updates of System Testing via email to the project team
+	Managed multiple testing resources and delegates tasks to each resource and got updates daily. 
+
+ Environment/Tools:  Java, Oracle, .Net Framework, XML, IVR, Voice Recognition and VBA/VBScript, Quality Center, Clear Quest, Quick Test Professional (QTP 9.2), Waterfall QA methodology
+
+
+
+
+Standard Insurance, Portland, OR                                                            Oct '08   -  March ‘09
+ 
+QA Lead Engineer 
+ 
+Standard Financial Corporation provides various products which include Group Life Insurance, Group Disability Insurance and Services, Retirement Plans (Financial/ecommerce). I got opportunities to get involved on both the insurance and Retirement planning sectors within the company based on various projects I was assigned to work on. 
+
+ 
+Responsibilities:
+  
+	Involved in creation of the Business Requirements Document. 
+	Involved in meeting with Business stakeholder communications and managing expectations.
+	Extensive involvement in creation of High Level Design Document. 
+	Testing included testing new functionality added to existing Web based services provided by Standard.
+	Complete responsibility in developing of the whole test plan, which also included the test template. Test Plan included defining the Functions to be tested, Risks and contingencies, timeline of the testing effort, Features to be tested, Resource requirements, Tools (hardware, Software) needed for the testing effort, Testing approach, Entry and exit Criteria etc., 
+	Included black box/Functional testing for web applications and desktop applications. 
+	Extensive Manual testing for test cases(border test cases) which cant be automated 
+	Wrote extensive scripts for automating testing using QTP for VB-based Desktop applications. 
+	Extensive Automated Test Case execution. 
+	Used Mercury Quality Center 9,9.2 and 10.0 to organize the whole testing effort. 
+	Back end Database systems testing involved Oracle data base. 
+	Created connection from Mercury Quality Center 9.5 to Mercury QTP for execution of scripts, needed for automating test cases. 
+	Organized and attend SCRUM meetings.
+	Logged all defects (Defect entry) using Mercury Quality Center 9, 9.2 and 10.0 defect log 
+(the company transitioned from QC 9.0 all the way to 10.0 during my stay there). 
+	Tested new paths coded to Standard’s IVR, Voice Recognition software.
+	Constant communication with both Business, Developers and SA during the whole testing effort. 
+	Testing included addition of new functionalities to existing Legacy Systems with VB 6
+	GroupFacts, an IBM Mainframe application, was used as billing information for premiums. The backend Database system was DB2.
+	Testing included validating Emails sent via SMTP service. The email had customized content and formatting written in HTML/CSS. 
+	HTTP/HTTPS were the protocol used by the web applications under test.
+	Special appreciation for appropriate communication with developers and Business teams to get the point across (Can provide emails of appreciation if needed). 
+	Used Load Runner for Performance Testing and Stress Testing measures. 
+	Worked with Users for UAT testing and completed regression testing after bug fixes. 
+	Testing included writing VBA/VBSCRIPT scripts automating excel sheet data inputs.
+	Attended and lead go/no-go meetings for transition from Component Integration Testing (CIT) to System testing (ST), ST to System Integration Testing (SIT) and SIT to User Acceptance Testing (UAT)
+	Performance Testing/Reliability testing included running extensive load transaction (SOAP messages) across the newly build Web services/AQ-MQ infrastructure and validate how the commercial system responds. XML format messages were used. Testing was done to validate throughput, latency and capacity measurements of the newly build message broker.
+	Worked with Dialogue applications, used to create dynamic PDF documents from XML inputs
+	Participated in ad-hoc testing just before transitioning from one testing phase to the next to make sure the system is stable after all the defect fixes.
+	Work included developing Regression test libraries (Reusable test cases and data elements) for future regression testing.
+	Hands on experience in the Insurance and Retirement Planning domains 
+	Insurance experience included Short term disability (STD), Long Term Disability (LTD), Life Insurance and dental insurance.
+	Retirement Planning experience included managing 401K and 403B plans for huge client groups represented by big companies.
+	Applications tested were based on Java and .NET (Object Oriented language). They interacted with many enterprise level components, which integrated service across Insurance and Retirement Planning software architecture.
+	MSproject software was used to input resource allocation and overall project schedule.
+	The Testing effort was based on an internal QA standard equivalent to CMMI 4 standard. 
+	Software development lifecycle (SDLC)/iterative testing methodology was used for developing this application. QA methodology followed agile process as well.
+	Status updates included weekly status reports and daily status report (During CIT/ST/SIT testing)
+	Managed multiple testing resources and delegates tasks to each resource and got updates regularly 
+  
+Environment/Tools:  Java, Oracle, DB2, QuickTest Pro 9.5, Load Runner, Test Director 9.0,9.2,10.0, .NET Framework, XML, Webservices, AQ/MQ, MS Explorer 7.0, TOAD, Message brokerIBM Mainframe, IVR, Voice Recognition and VBA/VBScript, Dialogue
+ 
+
+
+CVS/Caremark, Scottsdale, AZ                                                                         Nov ’07- Sept '08 
+ 
+QA Lead Engineer 
+ 
+CVS/Caremark is premier integrated pharmacy services provider, combining one of the nation's leading pharmaceutical services companies with the country’s largest pharmacy chain. The project involved developing an online application which can be used for viewing all the client formularies, managing all the formularies and helping the client develop reports of their respective formularies. 
+ 
+Responsibilities:
+  
+	Existing Legacy Systems was replaced by a new .NET application to improve Usability and performance.
+	Involved in creation of the Business Requirements Document. 
+	Involved in meeting with stakeholder communications and defining expectations.
+	Extensive involvement in creation of High Level Design Document. 
+	Complete responsibility in developing of the whole test plan, which also included the test template. Test Plan included defining the Functions to be tested, Risks and contingencies, timeline of the testing effort, Features to be tested, Resource requirements, Tools (hardware, Software) needed for the testing effort, Testing approach, Entry and exit Criteria etc., 
+	Included black box/Functional testing for webapplications. 
+	Extensive Manual testing for test cases(border test cases) which cant be automated 
+	Wrote extensive scripts for automating testing using QTP using VB Scripting
+	Extensive Automated Test Case execution. 
+	Used Mercury Quality Center 9 to organize the whole testing effort. 
+	Back end Database systems testing involved SQL server. 
+	XML message format was used to create word documents used as formularies for patients.
+	HTTP/HTTPS were the protocol used by the web applications under test.
+	Created connection from Mercury Quality Center 9 to Mercury QTP for execution of scripts, needed for automating test cases. 
+	Logged all defects (defect entry) using both Mercury Quality Center9 defect log and a separate Excel sheet. 
+	Constant communication with both Business and Developers during the whole testing effort. 
+	The Application server backend was completely coded in C# (Object Oriented language)
+	Testing was primarily done for an application that was primarily web based 
+(HTML/Javascript) client interface.
+	The Testing effort was based on CMMI 4 standard. 
+	Organized and attend SCRUM meetings.
+	Software development lifecycle (SDLC)/iterative QA methodology was used for developing this application. 
+	Special appreciation for appropriate communication with developers and Business teams to get the point across. 
+	Used Load Runner for Performance Testing and Stress Testing measures. Vgen Scripting included to simulate 100+ users simultaneously using the application.
+	Worked with Users for UAT testing and completed regression testing after bug fixes. Regression Testing libraries was developed for future reference. 
+	Managed multiple testing resources and delegates tasks to each resource and got updates regularly 
+	Send status updates every week to project manager 
+	Hands on experience in the pharmacy services domain, which involved formulary creation, management, client interaction, drug processing etc., 
+  
+
+
+Environment/Tools:  Java, SQL Server, QuickTest Pro 9.0, Load Runner, Test Director 9.0, Net Framework, XML, Windows NT, MS Explorer 7.0, Netscape Navigator 8.1, Firefox 2.0, Safari 1.2, Mozilla 1.7, MS office tools
+  
+ 
+
+
+Intel Corporation, Hillsboro, Oregon                         
+(May 05– Aug 05, Jan06-May’06, Jun 06-Oct’06)
+ 
+Quality Engineer/Test Analyst
+ 
+Processor design QA/Test Engineer:
+Intel is coming up with a new processor model in 2008. It’s a multi-core processor with some fantastic features. Our team’s task was to understand the existing validation techniques used to test the new designs and optimize them for better performance. A traditional While Box testing is very efficient in finding errors but very slow and tedious to complete. The traditional Black Box testing is comparatively fast but overlooks many possible error scenarios. We implemented a hybrid technique were we combined while box and black box testing to gain the efficiency and speed exhibited by these different methodologies. 
+  
+Responsibilities:
+  
+	In-depth study the current state of art techniques used for processor validations 
+	Designing a hybrid methodology, which combines the advantages of both while box and black box testing. 
+	Developing test plans targeting the bug prone parts of the design. 
+	Tests included both white box (Architectural style) and black box (System style) testing. 
+	Project included writing scripts in Perl and C++, C for automating test plans. 
+	Simulated real-time workloads to validate processor designs 
+	Building test cases for testing processor critical design paths 
+	Testing included processor performance testing for web based loads.
+	Agile Software development lifecycle (SDLC) methodology was used for developing this application. QA methodology followed agile process as well.
+	Performed various test comparisons with competing brands like AMD 
+	Cross verification of logs on Putty by using Unix.   
+	Managing critical path in testing cycle. 
+	Creating efficient repeatable testing process. 
+	Management reporting and documenting the testing methodologies. 
+	Log file management, Build deployment and Version control (Clearcase). 
+
+Network-Memory Interaction QA/Test engineer
+The current Intel processors (released in 2006) have a new technology called Direct Cache Access (DCA) incorporated in the design targeting better performance for streaming media and other heavy network workloads, which are introduced by high speed internet tradition. Our team held the responsibility to test this new technology with various workloads and analyze its performance to give important numbers that will be discussed by a higher-level team regarding DCA inductance in future versions and designs. 
+  
+Responsibilities: 
+  
+	Understanding the detailed steps of a TCP/IP packet processing in a Network Interface Card (NIC). 
+	Modify Linux Kernel to support the new technology called Direct Cache Access (DCA). 
+	Write & automate test cases targeting soft points were the performance might fail. 
+	Record & analyze results matching it with requirements. 
+	Document, track and communicate test cases/plans. 
+	Perform Sanity testing, Regression testing, integration testing and system testing. 
+	Report test results and Bugs and analysis and re-test the reported bugs on resolved builds. 
+	Identify, analyze, and document defects, questionable functions, errors, and inconsistencies in new technology. 
+	Testing mainly included cache performance for web based network streaming.
+	Agile Software development lifecycle (SDLC) methodology was used for developing this application. QA methodology followed agile process as well.
+	Preparing test plans for sanity and regression and assigning test cases based on the build requests to the teams involved in testing. 
+	Updating the existing test cases based on the programs and users interfaces. 
+	Reviewing the new test cases with the testing and code development teams before loading them into experimental systems. 
+	Work included C, Perl, Shell Scripting and running Workloads. 
+ 
+ 
+Memory Design QA/Test Engineer
+The project involved studying the effects of an extra level of cache in the memory hierarchy. We used RTL techniques to simulated different cache algorithms and did a passive test analysis of this new design. Different benchmarks depicting various real world environments were used to derive performance numbers. 
+  
+
+Responsibilities:
+ 
+	Writing and tweaking benchmarks to target soft points of the memory architecture, which included an extra level of level of cache. Benchmarks included simulating huge Database systems, threaded applications etc., 
+	Perfmon, Webload (Web based traffic simulation) and OpenSTA were some of the benchmark tools used to get performance numbers of the extra level of cache.
+	Unofficial BA work included collecting requirements from stakeholders and modifying the system and differing benchmarks accordingly. 
+	Document, track and communicate test cases/plans. 
+	Agile Software development lifecycle (SDLC) methodology was used for developing this application. 
+	Test cases included writing SQL queries, modifying network parameters and changing security parameters in the OS etc., 
+	Manually tested the application to validate the Functionality of the product.  
+	Participating in FAD reviews with the code development teams for the new features. 
+	Defect Reporting & tracking by using Test director 
+	Performed regression testing, integration testing, and system testing. 
+	Responsible for weekly status, Updates showing the Progress of the automation testing efforts 
+	Worked with teams onsite and offsite (China).
+	C++/Perl used to write scripts to parse from the simulated system
+  
+ 
+UTEP, El Paso, TX                                                                                                  
+(Aug ’04-May ’05, Aug ’05-Dec ’05, Oct’ 06-Sept ’07)
+UTEP Network OS Deployment/QA/Test engineer (Master’s Project)
+The Core of the project involved setting up a Linux Lab, in a PXE environment and clients pulling all essential details including the OS from a central server (The whole environment is volatile unless the data is stored consciously inside the Server. The project involved modifying configuration files in Linux, writing automated test scripts in Perl, boot-up scripts in Nash, understanding and modifying C (Linux kernel) code. NFS file system, union file systems etc. 
+  
+
+HCI QA/Test Engineer
+The core of the project included developing test plans to test a speech recognizer. 
+Both white box and black box testing were conducted. Used Test director to prepare test plans and test cases. Used PVCS tracker as the Defect Tracking System 
+  
+ 
+Simulation of the login program (used in Linux).
+Applications software development included simulating a login program, which used “MD5” algorithm encrypt. Wrote test cases to check the efficiency and security of login program and also came up with possible scenarios where the login program could be cracked. The project was coded in JAVA(Object Oriented language). Used WinRunner to automate test cases. 
+  
+  
+MD5 Algorithm
+Applications software development included simulating a security protocol with a public key-private key model. It includes two systems, which exchanges keys, for authentication, to establish a secure connection. MD5 algorithm was used for key encryption. Java (Object Oriented language) was used to simulate the whole setup. 
+ 
+ 
+EDUCATION: -
+MS – Computer Science, Univ TX at El Paso, USA 
+BS – Computer Science, Madras University, India 
